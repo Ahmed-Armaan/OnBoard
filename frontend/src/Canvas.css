@@ -1,0 +1,16 @@
+#container{
+    position: relative;
+}
+#container canvas,#inputs{
+    position: absolute;
+}
+#inputs{
+    z-index: 1;
+}
+canvas{
+    border: 1px solid black;
+}
+#lineWidth{
+    height: 10vh;
+    width: 10vh;
+}
